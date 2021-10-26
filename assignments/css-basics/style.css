@@ -1,0 +1,70 @@
+body {
+     background-color:white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    background:mistyrose;
+}
+
+header {
+    text-align: center;
+    background:plum;
+    padding: .5rem;
+
+}
+
+nav a {
+    margin: 1 rem;
+    color:purple;
+    font-weight: 600;
+    line-height: 2 em;
+
+}
+
+nav a:hover {
+    color:mediumblue;
+
+}
+
+main{
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: .5rem;
+
+}
+
+img  {
+    width: 100%;
+    max-width: 45rem;
+    display: block;
+    margin: 0 auto;
+}
+
+
+section {
+    margin: 2rem 0;
+    border-left: .5rem  solid plum;
+}
+
+h2{
+    font-weight: 300;
+    font-style: italic;
+}
+
+section h3 {
+    background:palevioletred;
+    margin: 0;
+    padding: .5rem;
+    font-style: italic;
+}
+
+section p{
+    background:pink;
+    margin: 0;
+    padding: .5rem;
+}
+
+footer{
+    background:plum;
+    padding: .5rem;
+}
