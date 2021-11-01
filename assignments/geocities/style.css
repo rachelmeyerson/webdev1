@@ -1,0 +1,131 @@
+header{
+    width: 500 px;
+    height: 100px;
+    font-size: 3em;
+    border: solid cornflowerblue 5px;
+    background-image: url("https://wallpaperaccess.com/full/22532.jpg");
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    font-style: italic;
+    color:gold;
+   
+}
+
+.caption{
+    position:absolute;
+    top: 250px;
+    left: 350px;
+}
+
+.sparkles{
+    position:absolute;
+    top: 170px;
+    right:50px;
+    border:none;
+}
+
+.fabulous{
+    position:absolute;
+    top:400px;
+    left:400px;
+    border:none;
+
+}
+
+body{
+    background: rgb(140,34,195);
+    background: radial-gradient(circle, rgba(140,34,195,1) 0%, rgba(130,117,235,1) 20%, rgba(54,231,206,1) 41%, rgba(253,249,45,1) 74%);
+    font-family:'Raleway', sans-serif;
+}
+img {
+    max-width: 500px;
+    border: solid coral  .5rem;
+
+}
+
+.selfie { 
+   max-width: 200px;
+   margin: 10px;
+
+
+}
+
+.box-with-bg {
+    width: 95% auto;
+    height: 5rem;
+    border: .25em dotted yellow;
+    background-image: url("https://i.etsystatic.com/6206871/r/il/878298/2211541093/il_1588xN.2211541093_lgwq.jpg");
+    padding: 1rem;
+    font-family: 'Delius Unicase', cursive;
+  }
+
+  span{ 
+      font-size: 16px;
+
+  }
+h1{
+    text-align: center;
+    padding: 1 rem;
+
+}
+
+.sunset-vertical{
+    position: absolute;
+    top:810px;
+    left: 550px;
+    max-width: 280px;
+}
+
+.dogs{
+    max-width: 400px;
+    border: solid .5rem;
+    color:lightseagreen;
+    margin: 1rem;
+
+}
+
+.reaction-gif{
+    position:absolute;
+    left: 70%
+    top: 95%;
+    border:solid .5rem;
+    color: purple;
+}
+
+ul{
+    background:paleturquoise;
+    padding: 2rem;
+    border: solid rgb(122, 73, 211) .5rem;
+
+}
+
+.list-photos{
+    max-width: 400px;
+    border:solid teal .5rem;
+    margin: .75 rem;
+}
+
+.katie {
+    max-width: 500px;
+    border: solid teal .5rem;
+}
+
+footer{
+    background:yellow;
+    position:fixed;
+    bottom:0%;
+   
+ 
+    
+
+
+}
+nav{
+    text-align: center;
+    padding: 1rem;
+    margin: 1 rem;
+    color:black;
+
+
+
+}
