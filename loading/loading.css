@@ -5,43 +5,70 @@
     border-right:20px solid red;
     border-left:20px solid red;
     border-top:20px solid red;
-    border-bottom:20px solid transparent;
-
-    position:absolute;
+    border-bottom:20px solid red;
+    display:grid;
+    place-items: center;
+    font-family:monospace;
+    
+    position: absolute;
     left:50%;
     top:50%;
 
     animation-name: spin;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-iteration-count: 1;
+    animation-delay: 0s;
     animation-fill-mode: forwards;
-    animation-direction: alternate;
     animation-timing-function: linear;
   }
   
   @keyframes spin {
     0% {
       transform: translate(-50%, -50px) rotateZ(0deg);
-      background:red;
+      background: transparent;
+      border-right:20px solid red;
+    border-left:20px solid red;
+    border-top:20px solid red;
+    border-bottom:20px solid red;
     }
     20% {
-      transform: translate(-50%, -50px) rotateZ(360deg);
-      background:orange;
+      transform: translate(-50%, -50px) rotateZ(72deg);
+      background:transparent;
+      border-right:20px solid orange;
+    border-left:20px solid orange;
+    border-top:20px solid orange;
+    border-bottom:20px solid orange;
     }
     40% {
-      transform: translate(-50%, -50px) rotateZ(360deg);
-      background:yellow;
+      transform: translate(-50%, -50px) rotateZ(144deg);
+      background:transparent;
+      border-right:20px solid yellow;
+    border-left:20px solid yellow;
+    border-top:20px solid yellow;
+    border-bottom:20px solid yellow;
     }
     60% {
-      transform: translate(-50%, -50px) rotateZ(360deg);
-      background:green;
+      transform: translate(-50%, -50px) rotateZ(216deg);
+      background:transparent;
+      border-right:20px solid green;
+    border-left:20px solid green;
+    border-top:20px solid green;
+    border-bottom:20px solid green;
     }
     80% {
-        transform: translate(-50%, -50px) rotateZ(360deg);
-        background:blue;
+        transform: translate(-50%, -50px) rotateZ(288deg);
+        background:transparent;
+        border-right:20px solid blue;
+    border-left:20px solid blue;
+    border-top:20px solid blue;
+    border-bottom:20px solid blue;
       }
       100% {
         transform: translate(-50%, -50px) rotateZ(360deg);
-        background:purple;
+        background:transparent;
+        border-right:20px solid purple;
+    border-left:20px solid purple;
+    border-top:20px solid purple;
+    border-bottom:20px solid purple;
       }
   }
