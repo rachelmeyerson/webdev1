@@ -1,0 +1,47 @@
+.square{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    border-right:20px solid red;
+    border-left:20px solid red;
+    border-top:20px solid red;
+    border-bottom:20px solid transparent;
+
+    position:absolute;
+    left:50%;
+    top:50%;
+
+    animation-name: spin;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: translate(-50%, -50px) rotateZ(0deg);
+      background:red;
+    }
+    20% {
+      transform: translate(-50%, -50px) rotateZ(360deg);
+      background:orange;
+    }
+    40% {
+      transform: translate(-50%, -50px) rotateZ(360deg);
+      background:yellow;
+    }
+    60% {
+      transform: translate(-50%, -50px) rotateZ(360deg);
+      background:green;
+    }
+    80% {
+        transform: translate(-50%, -50px) rotateZ(360deg);
+        background:blue;
+      }
+      100% {
+        transform: translate(-50%, -50px) rotateZ(360deg);
+        background:purple;
+      }
+  }
